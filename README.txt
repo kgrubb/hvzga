@@ -1,18 +1,14 @@
-Eventually by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<p align="center">
+<a href="http://hvzga.com"><img alt="HvZ GA" src="images/logo.jpg" ></a>
+</p>
 
+<p align="center">
+  UGA Spring Invitational
+</p>
 
-Just a simple placeholder template for your kickass app/product/startup/whatever until it
-launches. Includes an email signup form and a cool slideshow background (more on both below).
+---
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+HvZ stuff
 
 
 Signup Form:
@@ -53,17 +49,3 @@ Slideshow Background:
 
 		How long to wait between transitions (in ms). Note that this must be at least twice as long as
 		the transition speed itself (currently 3 seconds).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)

@@ -13,42 +13,30 @@
 <body>
         <!-- Header -->
         <header id="header">
-            <h1><a href="index.html">HvZ UGA Spring Invitational</a></h1>
-            <p>A simple template for telling the world when you'll launch<br />
-            your next big thing. Brought to you by <a href="http://html5up.net">HTML5 UP</a>.</p>
-            <ul class="icons">
-                <li><a class="button" href="#">Register</a></li>
-                <li><a class="button" href="#">Rules</a></li>
-                <li><a class="button" href="#">Directions</a></li>
-                <li><a class="button" href="contact.html">Contact</a></li>
-            </ul>
+            <h2><a href="index.html" class="icon fa-chevron-left"> Back</a></h2>
         </header>
 
         <!-- Signup Form -->
-
+        <div class="center-contact">
             <h2>Contact Us</h2>
             <form id="signup-form" method="post">
                 <input type="text" name="_gotcha" style="display:none" />
                 <input type="hidden" name="_format" value="plain" />
-                <input type="hidden" name="_subject" value="Prblmco. Form Submission/Inquiry" />
+                <input type="hidden" name="_subject" value="HvZ UGA Spring Invitational Form Submission/Inquiry" />
                 <input type="text" name="name" id="name" placeholder="Name" />
                 <input type="email" name="_replyto" id="email" placeholder="Email" />
                 <textarea name="message" id="message" placeholder="Message"></textarea>
                 <input type="submit" value="Send" />
-
             </form>
             <script>
                 let contactform = document.getElementById('contactform');
-                contactform.setAttribute('action', 'https://formspree.io/' + 'mgmt' + '@' + 'prblm' + '.' + 'co');
+                contactform.setAttribute('action', 'https://formspree.io/' + 'someone' + '@' + 'web' + '.' + 'site');
             </script>
+        </div>
     <!-- Footer -->
     <footer id="footer">
         <ul class="icons">
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>Credits: <a href="http://html5up.net">HvZ UGA</a></li>
+            <li><a href="https://www.facebook.com/groups/ugasummerinvitational/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
         </ul>
     </footer>
 
@@ -56,7 +44,7 @@
 
     <!-- Scripts -->
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.min.js"></script>
 </body>
 
 </html>
