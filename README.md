@@ -8,44 +8,35 @@
 
 ---
 
-HvZ stuff
+HvZ GA
 
+---
 
-Signup Form:
+This is the website to host Georgia's HvZ events eah year.
 
-	The signup form won't actually do anything (other than report back with a "thank you" message)
-	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
-	In either case, there are two ways to go:
+## Contact Form Information
 
-	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
-	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
-	block from assets/js/main.js (since it's not needed for this approach).
+The [contact form](./contact.html) utilizes [formspree](https://formspree.io/).
 
-	-or-
+## Slideshow
 
-	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
-	so you'll need to consult their/its documentation. However, I have included some basic code
-	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
-	form itself.
+The slideshow background is pretty straightforward, but there are two JS
+settings you'll want to be aware of (found under "Slideshow Background" in
+assets/js/main.min.js):
 
+### Images
 
-Slideshow Background:
+The list of images to cycle through, given in the following format:
 
-	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
+* 'url': 'alignment'
 
-	images
+Where 'url' is the image (eg. 'images/foo.jpg',
+'http://somewhere.else/foo.jpg'), and 'alignment' is how the image should be
+vertically aligned ('top', 'center', or 'bottom').
 
-		The list of images to cycle through, given in the following format:
+**Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.**
 
-			'url': 'alignment'
+### Delay
 
-		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
-		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
-
-		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
-
-	delay
-
-		How long to wait between transitions (in ms). Note that this must be at least twice as long as
-		the transition speed itself (currently 3 seconds).
+Delay configures how long to wait between transitions (in ms). Note that this
+must be at least twice as long as the transition speed itself (currently 3 seconds).
