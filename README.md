@@ -1,7 +1,6 @@
 <p align="center">
-<a href="http://hvzga.com"><img alt="HvZ GA" src="images/logo.jpg" ></a>
+  <a href="http://hvzga.com"><img alt="HvZ GA" src="images/logo.jpg" ></a>
 </p>
-
 <p align="center">
   UGA Spring Invitational
 </p>
@@ -9,7 +8,6 @@
 ---
 
 HvZ GA
-
 ---
 
 This is the website to host Georgia's HvZ events eah year.
