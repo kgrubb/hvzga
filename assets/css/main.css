@@ -149,13 +149,13 @@
 /* BG */
 
 	#bg {
-		-moz-transition: opacity 2s ease-in-out;
-		-webkit-transition: opacity 2s ease-in-out;
-		-ms-transition: opacity 2s ease-in-out;
-		transition: opacity 2s ease-in-out;
+		-moz-transition: opacity 1s ease-in-out;
+		-webkit-transition: opacity 1s ease-in-out;
+		-ms-transition: opacity 1s ease-in-out;
+		transition: opacity 1s ease-in-out;
 		height: 100%;
 		left: 0;
-		opacity: 0.25;
+		opacity: 0.30;
 		position: fixed;
 		top: 0;
 		width: 100%;
