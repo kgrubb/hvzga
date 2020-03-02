@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 
 /*
 	Eventually by HTML5 UP
@@ -46,7 +47,11 @@
 
 	body {
 		-webkit-text-size-adjust: none;
-	}
+  }
+
+  .index-title {
+    font-family: 'Black Ops One';
+  }
 
 /* Box Model */
 
